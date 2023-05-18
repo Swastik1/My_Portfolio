@@ -4,6 +4,7 @@
 
   :root {
     --primary-color: rgb(117, 75, 179);
+    --off-white: #9ca3af;
     --dark-gray: rgb(110, 110, 110);
   }
 
@@ -106,6 +107,17 @@
     color: var(--primary-color );
  }
 
+/* section */
 
 
+.section h1{ 
+  text-align: center;
+  padding: 2rem;
+}
 
+.ow {
+  background-color: var(--off-white);
+  margin-right: 0.75rem;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+}
