@@ -4,6 +4,7 @@
 
   :root {
     --primary-color: rgb(117, 75, 179);
+    --dark-gray: rgb(110, 110, 110);
   }
 
   body {
@@ -84,8 +85,26 @@
   color: white;
 }
 
+/* header */
+ .hero {
+    padding: 2rem;
+ }
 
+ .hero .hero-img {
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: auto;
+ }
 
+ .hero .hero-heading {
+    color: var(--dark-gray);
+    text-align: center;
+ }
+
+ .hero .hero-heading .heading-inverted {
+    color: var(--primary-color );
+ }
 
 
 
