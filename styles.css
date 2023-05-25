@@ -67,9 +67,10 @@
 }
 
 .list-center-sm{
+  display: block;
   text-align: center;
-  vertical-align: middle;
-  margin-top: -40px;
+  /* vertical-align: middle; */
+  margin-top: -20px;
 }
 
 /* navs */
