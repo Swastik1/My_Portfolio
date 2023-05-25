@@ -31,6 +31,10 @@
     margin: auto;
   }
 
+  .blogs-list {
+    margin-top: -55px;
+  }
+
   /* links */
 
   .link {
@@ -118,6 +122,9 @@
     color: var(--primary-color );
  }
 
+ .blogs-header {
+  display: inline-block;
+ }
 /* section */
 
 
