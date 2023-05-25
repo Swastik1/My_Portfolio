@@ -6,6 +6,7 @@
     --primary-color: rgb(117, 75, 179);
     --off-white: #dfe0e1;
     --dark-gray: rgb(110, 110, 110);
+    --light-violet: #8b5cf6;
   }
 
   body {
@@ -140,6 +141,35 @@
   padding-bottom: 1rem;
 }
 
+/* images */
+
+.blog-img-webdev {
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+/* videos */
+
+.blog-vid-webdev {
+  
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/* blogs */
+
+.blog-list-color {
+  color: var(--light-violet);
+}
+
+.blog-list-paragraph {
+  font-weight:var(--dark-gray);
+}
 
 /* footer */
 
